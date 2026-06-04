@@ -1,0 +1,105 @@
+# Device Inventory
+
+## Router
+### Netgear Nighthawk RAX43
+Role:
+* Primary router
+* Internet gateway
+
+Status:
+* Operational
+Notes:
+* Future migration planned from 192.168.xxx.xxx to 192.168.xxx.xxx
+---
+
+## Raspberry Pi 5 Pi-hole
+Role:
+* Primary infrastructure node
+
+Hardware:
+* Raspberry Pi 5
+* 8 GB RAM
+* 512 GB NVMe
+
+Services:
+* Pi-hole
+* DHCP
+* SSH
+
+Network:
+* Static IP configured
+* Ethernet only
+
+Status:
+* Operational
+
+Notes:
+* Booting from NVMe
+* Wi-Fi disabled
+---
+
+## Raspberry Pi Zero W Pi-hole
+Role:
+* Secondary infrastructure node
+
+  Hardware:
+* Raspberry Pi Zero W
+
+Services:
+* Secondary Pi-hole (planned)
+  
+Network:
+* Static IP planned
+
+Status:
+* In Progress
+
+Notes:
+* Connected via Ethernet adapter
+* Intended as DNS failover
+---
+
+## Managed Switch
+
+Role:
+* Distributes network connectivity throughout the house
+
+Status:
+* Operational
+  
+Notes:
+* Currently functioning primarily as a network distribution switch
+* Future configuration planned
+---
+
+## Future Raspberry Pi 5
+
+Role:
+* Undecided
+  
+Potential Uses:
+* Monitoring
+* Grafana
+* Prometheus
+* Logging
+* Infrastructure management
+
+Status:
+* Planning Phase
+---
+
+## Future VM Server
+
+Hardware:
+* Intel i9-10900KF
+* 32 GB DDR4 RAM
+* RTX 3060 12 GB
+
+Potential Uses:
+* Virtualization
+* Lab environments
+* Security testing
+* Monitoring infrastructure
+
+Status:
+* Planning Phase
