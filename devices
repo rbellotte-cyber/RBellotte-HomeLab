@@ -46,16 +46,20 @@ Role:
 * Raspberry Pi Zero W
 
 Services:
-* Secondary Pi-hole (planned)
+* Pi-hole
+* ssh
+* Secondary DNS
   
 Network:
-* Static IP planned
+* Static IP configured
+* Etherent only
 
 Status:
-* In Progress
+* Operational
 
 Notes:
-* Connected via Ethernet adapter
+* OISD installed
+* Wi-Fi disabled
 * Intended as DNS failover
 ---
 
