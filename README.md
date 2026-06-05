@@ -44,20 +44,22 @@ Network:
 - Static IP: 192.168.xxx.xxx
 - Ethernet only
 
-### Raspberry PI Zero PI-Hole
+### Raspberry Pi Zero W Pi-hole
 
 Secondary infrastructure node.
 
 Hardware:
 - Raspberry Pi Zero W
+- USB Ethernet Adapter
 
-Planned Services:
-- Secondary Pi-hole
-- DNS failover
+Services:
+- Pi-hole
+- DNS Failover
+- SSH
 
-Planned Network:
-- Static IP: 192.168.xxx.xxx
-
+Network:
+- Static IP Configured
+- Ethernet Only
 ---
 
 ## Future Projects
