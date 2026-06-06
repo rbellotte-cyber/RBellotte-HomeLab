@@ -24,7 +24,7 @@ Hardware:
 Services:
 * Pi-hole
 * DHCP
-* SSH
+* ssh
 
 Network:
 * Static IP configured
@@ -52,7 +52,7 @@ Services:
   
 Network:
 * Static IP configured
-* Etherent only
+* Ethernet only
 
 Status:
 * Operational
@@ -60,7 +60,7 @@ Status:
 Notes:
 * OISD installed
 * Wi-Fi disabled
-* Intended as DNS failover
+* Configured as secondary DNS server and failover service
 ---
 
 ## Managed Switch
@@ -80,13 +80,17 @@ Notes:
 
 Role:
 * Undecided
-  
+
 Potential Uses:
 * Monitoring
 * Grafana
 * Prometheus
 * Logging
 * Infrastructure management
+
+Planned Storage:
+* 512 GB NVMe (OS and Services)
+* 2 TB NVMe (Data and Backups)
 
 Status:
 * Planning Phase
