@@ -1,6 +1,7 @@
 ## 2026-06-06
 
 ### Raspberry PI Zero PI-Hole Deployment Completed
+### Secondary DNS Deployment Completed
 
 Changes:
 - Configured static IP
