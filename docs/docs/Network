@@ -1,1 +1,11 @@
-
+Internet
+   |
+Netgear RAX43
+   |
+Managed Switch
+   |
++-- Raspberry PI 5 PI-Hole (Primary DNS)
+|
++-- Raspberry PI Zero PI-Hole (Secondary DNS)
+|
++-- Household Devices
