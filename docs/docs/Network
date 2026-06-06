@@ -4,8 +4,12 @@ Netgear RAX43
    |
 Managed Switch
    |
-+-- Raspberry PI 5 PI-Hole (Primary DNS)
++-- Raspberry Pi 5 Pi-hole (Primary DNS)
 |
-+-- Raspberry PI Zero PI-Hole (Secondary DNS)
++-- Raspberry Pi Zero W Pi-hole (Secondary DNS)
 |
 +-- Household Devices
+|
++-- Future Pi 5
+|
++-- Future VM Server
