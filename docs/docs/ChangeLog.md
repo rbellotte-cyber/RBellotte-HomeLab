@@ -1,6 +1,6 @@
 ## 2026-06-06
 
-### Raspberry PI Zeor PI-Hole Deployment Completed
+### Raspberry PI Zero PI-Hole Deployment Completed
 
 Changes:
 - Configured static IP
