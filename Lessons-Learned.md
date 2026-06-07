@@ -17,3 +17,18 @@ Use pihole -g to verify blocklists are updating correctly.
 Verify SSH access before removing local console access.
 
 Document the network before making infrastructure changes.
+
+## Lessons Learned
+
+### Raspberry Pi Imager
+
+Verify before flashing:
+
+- Hostname
+- Username
+- Password
+- SSH Settings
+- Wi-Fi SSID
+- Wi-Fi Password
+
+A single typo can require reflashing and rebuilding the system.
