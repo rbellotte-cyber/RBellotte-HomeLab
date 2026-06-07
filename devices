@@ -63,14 +63,27 @@ Notes:
 * Configured as secondary DNS server and failover service
 ---
 
-## Managed Switch
+## Raspberry PI 5 (Undefined)
 
-Role:
-* Distributes network connectivity throughout the house
+Purpose:
+- Infrastructure Services Node
+
+Hardware:
+- Raspberry Pi 5
+- 8 GB RAM
+- 512 GB NVMe
+- 2 TB NVMe
+- Pironman 5 Max Case
+
+Network:
+- Static IP: 192.168.xxx.xxx
+- Ethernet Only
+- Wi-Fi Disabled
 
 Status:
-* Operational
-  
+- Raspberry Pi OS Lite (64-bit)
+- SSH Enabled
+- Fully Updated  
 Notes:
 * Currently functioning primarily as a network distribution switch
 * Future configuration planned
